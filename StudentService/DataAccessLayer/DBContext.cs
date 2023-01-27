@@ -10,6 +10,12 @@ namespace StudentService.DataAccessLayer
 
         }
         public DbSet<Student>? Students { get; set; }
-
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>()
+        .Property(p => p.StudentID)
+        .ValueGeneratedOnAdd()
+        .UseIdentityColumn(100,2);
+        }
     }
 }

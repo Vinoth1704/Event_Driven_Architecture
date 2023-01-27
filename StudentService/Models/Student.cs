@@ -6,6 +6,7 @@ namespace StudentService.Models
     public class Student
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int StudentID { get; set; }
         public string? StudentName { get; set; }
         public int RollNumber { get; set; }

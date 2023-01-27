@@ -5,7 +5,7 @@
 namespace StudentService.Migrations
 {
     /// <inheritdoc />
-    public partial class createtable : Migration
+    public partial class initail : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +15,7 @@ namespace StudentService.Migrations
                 columns: table => new
                 {
                     StudentID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("SqlServer:Identity", "100, 2"),
                     StudentName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     RollNumber = table.Column<int>(type: "int", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),

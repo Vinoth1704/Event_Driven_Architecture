@@ -9,10 +9,12 @@ namespace StudentService.Services
     {
         private IStudentDAL _studentDAL;
         private IMessagingService _messageService;
-        public StudentsService(IStudentDAL studentDAL, IMessagingService messageService)
+        private IConfiguration _config;
+        public StudentsService(IStudentDAL studentDAL, IMessagingService messageService, IConfiguration configuration)
         {
             _studentDAL = studentDAL;
             _messageService = messageService;
+            _config = configuration;
         }
         public bool CreateStudent(Student student)
         {
@@ -22,7 +24,7 @@ namespace StudentService.Services
                 string studentDetails = JsonConvert.SerializeObject(new
                 {
                     StudentID = student.StudentID,
-                    StudentName = student.StudentName
+                    StudentName = student.StudentName,
                 });
                 _messageService.SendMessage(studentDetails);
                 return true;

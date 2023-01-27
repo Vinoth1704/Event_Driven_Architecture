@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\StudentService.csproj": {}
+    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\StudentService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\StudentService.csproj": {
+    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\StudentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\StudentService.csproj",
+        "projectUniqueName": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\StudentService.csproj",
         "projectName": "StudentService",
-        "projectPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\StudentService.csproj",
+        "projectPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\StudentService.csproj",
         "packagesPath": "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\obj\\",
+        "outputPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinoth.jayakumar\\AppData\\Roaming\\NuGet\\NuGet.Config"

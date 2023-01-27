@@ -11,8 +11,8 @@ using StudentService.DataAccessLayer;
 namespace StudentService.Migrations
 {
     [DbContext(typeof(StudentServiceDBContext))]
-    [Migration("20221228102355_create_table")]
-    partial class createtable
+    [Migration("20230104145602_initail")]
+    partial class initail
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,7 +30,7 @@ namespace StudentService.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"), 100L, 2);
 
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");

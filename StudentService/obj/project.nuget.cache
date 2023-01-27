@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KQwzM1x4MTOlxvCR+3gC3Dz4+d5dlU5VUBSIAQt3EB5fOziVfqP/uKAzbZOyC7ELDn0zVQxOyigLtVJfCbn4XA==",
+  "dgSpecHash": "7XznsgCG1k3rXqNAs5ddXXkwAqdbs0FWRKSTuzroVwGtlH+u8dBSUM2OawngxLUIUM8TFX++g4MknvdXdG8ryA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\WebAPI\\StudentService\\StudentService.csproj",
+  "projectFilePath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\Event_Driven_Architecture\\StudentService\\StudentService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -27,7 +27,7 @@ namespace StudentService.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentID"), 100L, 2);
 
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
